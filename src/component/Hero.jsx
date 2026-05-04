@@ -12,7 +12,7 @@ const Hero = () => {
                     minimalistic & modern</h1>
                 <p className=' md:text-2xl font-normal text-sm md:w-2/3 text-center px-2 text-white mb-6'>Turn your room with panto into a lot more minimalist and modern with ease and speed</p>
                 <div className='relative flex items-center justify-center bg-white/15 rounded-full shadow-lg border border-gray-300 '>
-                    <input type="text" placeholder='Search furniture' className='focus:outline-none py-2 px-6 focus:text-white' />
+                    <input type="text" placeholder='Search furniture' className='focus:outline-none py-2 px-6 focus:text-white w-50 md:w-100 z-60' />
                     <span className='bg-primary rounded-full p-2 mr-2'><BsSearch /></span>
                 </div>
             </div>
